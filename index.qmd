@@ -9,6 +9,11 @@
  |
 
 
+## Abstract
+
+I feel like we need an abstract.
+
+
 ## Problem Statement
 
 Opnts bridges the gap between official statistics and academic research. Even though public availability of official statistics is decent in Switzerland, data publications of regional and federal public data providers often lack machine readability. Therefore, these data publications are not convenient for academic researchers.
