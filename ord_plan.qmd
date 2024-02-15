@@ -1,0 +1,306 @@
+
+# ORD Project Plan
+
+## WP0: Coordination and Planning
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+library(readr)
+library(dplyr)
+tbl <- read_csv("data/tables/tbl-02-wp-activities-research-questions.csv")
+
+a <- tbl |>
+    filter(WP == "WP0") |>
+    pull(`Project Activity`)
+
+r <- tbl |>
+    filter(WP == "WP0") |>
+    pull(`Research Question`)
+
+
+
+```
+
+
+::: {.callout-note}
+
+# Activities and Research Questions
+
+`r a[1]`
+
+`r a[2]`
+
+`r r[1]`
+
+`r r[2]`
+
+:::
+
+
+### Goals {.unnumbered}
+
+During the starting stage of our project, we coordinate with major public data providers and involve data sources in our planning early on. We do so in order to establish and maintain active, lively communication between public data providers and the scientific usage community. 
+
+<!-- activities & RQs -->
+Publicly available economic data provided by the Federal Statistical Office (FSO), the Secretariat of Economic affairs (SECO), the Swiss National Bank (SNB) as well as regional Statistical Offices are important sources for economic research and monitoring of the Swiss economy. To develop an ORD spirit and a community of a data providers and scientific users of the data, it is crucial to involve these public institutions early on. Early dialogue helps to avoid reduncancies with existing data community initiatives and to develop a common understanding of *open data*, machine readability and datasets of priority. 
+
+One of the core parts of our approach is to leverage the investment into open data and strengthen connection between academia and federal and regional administration is to integrate public data into academic teaching. To explore how to effectively use the joint expertise of public data providers, domain experts, data stewards of the ETH domain and data engineers, we launch a series of monthly meetups early in the process. The meetups are designed to foster inclusive expert discussions through publicly pre-circulated content. We are working to integrate our meetup series into the academic curriculum at ETH, but keep the series open to interested participants beyond academia. 
+
+
+
+## WP1: Homogenization of Data Processing Across Data Sources
+
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+library(readr)
+library(dplyr)
+tbl <- read_csv("data/tables/tbl-02-wp-activities-research-questions.csv")
+
+a <- tbl |>
+    filter(WP == "WP1") |>
+    pull(`Project Activity`)
+
+r <- tbl |>
+    filter(WP == "WP1") |>
+    pull(`Research Question`)
+
+
+
+```
+
+
+::: {.callout-note}
+
+# Activities and Research Questions
+
+`r a[1]`
+
+`r a[2]`
+
+`r a[3]`
+
+`r r[1]`
+
+`r r[2]`
+
+`r r[3]`
+
+:::
+
+
+### Goals {.unnumbered}
+
+<!-- communication through the opents project, code as communication channel --> 
+
+In work package 1 (WP1), we lay the technical foundation to re-publish public data as a machine readable resource. Our approach use license cost free open source software and aims to publish not only the data but also the technical framework in order to ensure reproducibility and comply with FAIR principles. In addition, the *opents* project embraces an infrastructure-as-code approach and publishes this information on the runtime environment in order to facilitate operation of an instance of the *opents* framework through others. 
+
+Because an active community is inevitable to keep the project sustainable, i.e., well maintained, we chose the R Project for Statistical Computing as our main programming language for the implementation of the framework. R is known for its large and inclusive community with its annual user conferences and vibrant local communities (insert figure Ben's community explorer, article on useR!, hosted in 2021). Alongside its strong regional and international community, the fact that R is open source and free of license costs lowers the barrier to entrance and contribution considerably. In addition, R offers well established boilerplating ecosystems like *usethis* [@usethis] and documentation frameworks such as *pkgdown* [@pkgdown] or Roxygen [@roxygen2]. 
+
+WP1 focuses on the concrete implementation of the data ingestion and transformation process. In a first implementation step, we identify common parts of the ingestion process across data providers and datasets. We compose these common parts in an R package that forms our core library and fosters reuse of source code. idiosyncrasies. We encourage the community to use our core packages and to contribute by adding further dataset specific packages. To inspire contributions, we supplement the opents core, based on our long term experience as consumers of public data, with provider specific R libraries that cover dataset idiosyncrasies.
+
+
+<!--- Insert schematic process -->
+<!--- code example (demo, reference, appendix) -->
+
+At the end of WP1, we plan to iterate over the resulting datasets and data descriptions and enhance meta information where necessary. We do so in reproducible and transparent fashion by adding all changes to the source code that produces the data and metadata files. 
+
+## WP2: Publication
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+library(readr)
+library(dplyr)
+tbl <- read_csv("data/tables/tbl-02-wp-activities-research-questions.csv")
+
+a <- tbl |>
+    filter(WP == "WP2") |>
+    pull(`Project Activity`)
+
+r <- tbl |>
+    filter(WP == "WP2") |>
+    pull(`Research Question`)
+
+
+
+```
+
+
+
+::: {.callout-note}
+
+# Activities and Research Questions
+
+`r a[1]`
+
+`r a[2]`
+
+`r a[3]`
+
+`r a[4]`
+
+`r r[1]`
+
+`r r[2]`
+
+`r r[3]`
+
+`r r[4]`
+
+:::
+
+
+### Goals
+
+The goal of Work package 2 (WP2) is find the platforms our community data and code components best and facilitates our approach to ORD. We will involve our data consumers and collaborators into this decision making process. Based on our *open by default* thinking, we will publish not only the resulting time series data and meta information, but all components of our software framework. In the process, we will work together with ETH legal service to find the most suitable open source licensing solution for all components of the opents project.
+
+### Implementation
+
+The *opents* approach suggested here, splits data and metainformation into two separate text files and formats: a simple .csv spreadsheet and a nested .json file for multi-lingual data description. Having two simple text files per dataset allows us to disseminate the resulting time series data on free, standard infrastructure such as GitHub that is well established in the open source community. The state-of-the-art rendering of .csv spreadsheets of git modern platforms sets the barrier to explore and consume our scientific use time series datasets as low as possible. Hence, the publication of data on GitHub, possibly using git's Large File Storage (LFS) extension, forms oru baseline scenario. Yet, in WP2 we explore the feasibility of other, complementary, regional and international publication channels such
+opendata.swiss, r-universe or Zenodo.
+
+<!-- CSV + JSON = opents , do we want to have a demo here ? code block mit .csv (README swissdata org--->
+
+Technically, the *opents* framework consists of a core R package and several data provider specific ingestion packages. Again, we see the publication of all these components as open source libraries on GitHub or another major Git platform with good visibility as the baseline form of publication. In addition, WP2 explores which of our components are suitable for a publication on the Comprehensive R Archive Network (CRAN). Publication on CRAN comes with requirements and quality control but opens up our work to a larger audience as endusers face the lowest possible hurdle to install our packages. 
+
+<!-- example screenshot of GUI downloading package from CRAN -->
+
+
+We will also explore more recent and experimental approaches such as r-universe which helps to improve our reach in the data science community. In WP2, we aim to expose our work to an rOpenSci peer review. rOpenSci shares our values of open and reproducible research through reusable and helps us to reach ORD excellence. 
+
+- choosealicense
+- CRAN
+- GitHub
+- runiverse
+- rOpenSci
+- Zenodo
+- opendata.swiss
+- licenses (ETH Rechtsdienst)
+
+
+
+- split meta information and data
+- store data on github (possibly LFS)
+- time series data
+
+- code & runtime environment
+    - publish as an R package on CRAN 
+    - publish on GitHub for developers, contributors
+
+
+baseline scenario OSS (GitHub) -> explain components -> which platforms provide benefits for our community in addition to mere open sourcing.
+
+
+
+
+
+
+
+## WP3: Community Activation
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+library(readr)
+library(dplyr)
+tbl <- read_csv("data/tables/tbl-02-wp-activities-research-questions.csv")
+
+a <- tbl |>
+    filter(WP == "WP3") |>
+    pull(`Project Activity`)
+
+r <- tbl |>
+    filter(WP == "WP3") |>
+    pull(`Research Question`)
+
+
+
+```
+
+
+::: {.callout-note}
+
+# Activities and Research Questions
+
+`r a[1]`
+
+`r a[2]`
+
+
+`r r[1]`
+
+`r r[2]`
+
+
+
+:::
+
+
+
+
+
+
+<!-- crap line
+
+The source code that we develop at this stage aims to implement and communicate open data standards and at the same time creates machine ingestion friendly datasets. we benchmark and update data and metadata against as fair principle a benchmark of 
+
+
+
+
+
+
+ When monitoring the Swiss economy, we compare publication dates, download files or consume APIs. 
+
+ ,
+
+
+In the process, operations such as downloads, exchange with industry standard APIs and comparison of publication are relatively common across datasets and providers while data transformation can be very specific. We compose these common parts in a opents-core R package. 
+
+
+next up: modular packages. 
+
+
+
+ through tasks as monitors of the Swiss economy (KOF), we identify common ground 
+
+accountability, monitoring
+
+
+
+
+ORD excellence
+
+- critical problem
+- beyond state of the art
+- integration of existing ORD practices (open source, reproducibility)
+
+RQ1 components of a framework
+
+- data repository
+
+ (RQ2)
+- standards for data and data description -> FAIR
+
+
+
+
+RQ3
+
+- interactivity
+- language / wording
+- application examples / interactivity
+- community support -> matrix 
+- portfolio type of examples (confidence in approach)
+
+- implement data provider specific code for core datasets (specific)
+- develop documentation that fosters inclusion of the community, encourages use of the library AND resulting datasets
+- prepare for publication of engine
+- reproducible research
+
+
+DONE
+- common source code (reuse)
+- source specific source code (modular)
+- community 
+- open source, free of license costs
+- runtime environment
+
+
+
+
+ -->

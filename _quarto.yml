@@ -1,0 +1,26 @@
+project:
+  type: book
+
+book:
+  title: "ORD Proposal: opnts"
+  subtitle: ": An Open Framework for Scientific Grade Time Series Datasets"
+  author: "Dr. Matthias Bannert and Minna Heim"
+  date: "1/18/2024"
+  chapters:
+    - index.qmd
+    - ord_plan.qmd
+    - impact.qmd
+    - overview.qmd
+    - resources.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  #pdf:
+  #  documentclass: scrreprt
+
+
+

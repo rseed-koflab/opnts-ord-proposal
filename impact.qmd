@@ -1,0 +1,63 @@
+# Impact 
+
+<!-- **Instructions**
+Please address these specific points:
+
+- How sustainable is the proposed project inside the ETH Domain?
+
+- To what extent will the planned project substantially advance the ORD field, or solve a critical outstanding problem in the targeted field(s)?
+
+- To what extent does the proposal support a collaborative approach,
+  involving significant synergies, complementarities, or/and scientific
+  added-value to achieve its objectives? -->
+
+
+It is particularly important to us to not only solve a critical problem in our community, but also to do so in sustainable fashion. We are convinced that aligning opents with the FAIR principles [@fair] is instrumental in establishing our approach in our own community and reaching other research communities from there. 
+
+## Sustainability in the ETH Domain
+
+Regular and timely data sourcing is mandatory for KOF's academic and national tasks. 
+Hence, we are fully convinced that pushing an ORD approach at KOF, will help advances ORD practices in empirical economics and official statistics in the long term. 
+The use of the opnts framework in teaching and the economic community helps to leverage digital transformation efforts in official statistics, as future researchers and public servants alike become familiar with Swiss official statistics data and ORD principles. 
+In addition, our inclusive approach helps to keep the community involved, while the idea of modular software packages with their maintainers allows for the passing on of responsibilities in case of changes in personnel.
+The Comprehensive R Archive Network (CRAN) and the R Project for Statistical Computing have a long tradition at ETH.
+The ETH domain and its staff contributed substantially to the language and its extension packages, including to CRAN itself^[see also https://stat.ethz.ch/CRAN/]. 
+
+## Solving a Critical Problem
+
+Although there has been a certain sense of urgency for digital transformation in the public sector since the pandemic at the latest, change management schedules do not always align with the timeline of individual academic careers or ongoing daily business. 
+While we greatly appreciate advances in the above efforts, we provide an immediate solution to data sourcing to those that need to ingest public data today. 
+In addition, we help identify redundant efforts across institutions and broker usage of common sources, using public money more efficiently. 
+Finally, we help bridge the gap and strengthen the link between public administration and academic research.
+
+
+
+## Collaboroative Approach
+
+The proposed opnts project is highly collaborative in multiple ways. 
+The technical approach is inclusive and modular. Through open-sourcing and focusing on the core package, we hold ourselves accountable through the community and at the same encourage contribution to the technical core. 
+In our data provider-specific modules, we foster collaboration at the dataset level.
+Through our own dataset modules, we provide examples that collaborators from other fields can use - along with the documentation - as blueprints to build their own extension packages to process data from their respective fields. 
+Finally, we involved data providers from the very initial phase of the project.
+Our goal is to use our traditional ties with federal and regional public administration to establish a channel for hands-on two-way feedback between data providers and the research community.
+In the process, we plan to take part in existing academic and non-academic community events and also explore ways and formats, particularly in a way of teaching that involves students in our collaborative approach. 
+
+
+## FAIR Principles 
+
+The opnts project works to make its output **findable**. 
+We combine our own experience with the expertise and reach of our partners to find the right outlets to help us reach multiple communities.
+A high degree of automation allows us to consider and maintain multiple platforms from GitHub to CRAN for our software and from Dryad^[https://datadryad.org/stash] to opendata.swiss and Zenodo^[https://zenodo.org/] for our datasets.  
+In addition, we intend to subject our work to a scientific software review [@review] by the renowned rOpenSci [@ropensci] organization.
+
+>rOpenSci fosters a culture that values open and reproducible research using shared data and reusable software -- https://ropensci.org/about/
+
+We make our work **accessible**. With the support of ETH Legal Services, we open-source our software and find appropriate open-source and creative common licenses for our software and data. 
+
+We do not compromise when it comes to making our data **interoperable**.
+We build on the World Wide Web Consortium's (W3C) idea of CSV on the Web, setting the tone for interoperability. Like CSVW, our data output splits data and metadata into two files: a data .csv and a metadata JSON. While we use standard CSV files for time series to not only allow virtually any programming language to ingest it, but also standard office software to read our data,. 
+Our JavaScript Object Notation (JSON) metadata files extend the basic idea of the W3C. We use a key to refer to data and allow storing comprehensive, multilingual meta-information. 
+
+A **reusable** and extendable framework and data pool of macroeconomic time series is a core contribution of the opents project. We do not only provide the data and software as is; we also provide community support on our GitHub page and RSEED chat space. In addition, we use the project as a teaching example and ambassador for the FAIR principles among ETH students. 
+
+
