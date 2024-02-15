@@ -9,6 +9,21 @@
  |
 
 
+## Abstract
+
+Monitors of the Swiss economy and academic researchers need to source official statistics on a regular basis. 
+Often information needs to be ingested in timely fashion right after a dataset has been published. 
+
+- data publications often with general public in mind, not scientific use. 
+- opnts: immediate impact publish machine readable 70 datasets including
+- software encourages others to write processing scripts
+- community support
+- integration into teaching
+- feedback with the FSO
+
+
+
+
 ## Problem Statement
 
 Opnts bridges the gap between official statistics and academic research. Even though public availability of official statistics is decent in Switzerland, data publications of regional and federal public data providers often lack machine readability. Therefore, these data publications are not convenient for academic researchers.
