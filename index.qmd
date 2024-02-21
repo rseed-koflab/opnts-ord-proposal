@@ -10,17 +10,22 @@
 
 
 ## Abstract
+<!-- max. 1500 characters -->
 
-Monitors of the Swiss economy and academic researchers need to source official statistics on a regular basis. 
-Often information needs to be ingested in timely fashion right after a dataset has been published. 
+Monitors of the Swiss economy and academic researchers need to source official statistics on a regular basis. Often information needs to be ingested in timely fashion right after a dataset has been published. The data publications, however, are mostly unsuitable for scientific use since the official statistical bodies publish with the general public in mind. Opnts addresses these critical issues by improving the machine readability of public data. This is done in two ways: Opnts not only publishes 70 machine reabable datasets, but also the associated software, thus encouraging users to write their own processing scripts and publish the resulting open data. In addition, the Opnts project aims to build a surrounding community, which not only supports researchers in their machine readability efforts through community events, but also educates the next generation of researchers on how to "grapple" with public data and become more resilient (data) scientists. 
 
-- data publications often with general public in mind, not scientific use. 
+<!-- special focus: open source -->
+By collaborating with public institutions such as the Swiss Federal Statistical Office on economic data and teaching, and by encouraging researchers to not only to use the Opnts data, but also to write their own processing scripts and provide feedback on the Opnts software, this project puts open science on the forefront, not only for the benefit of other researchers, but because we recognise the potential that vibrant open source communities have to improve the Opnts project and the state of the art in science. 
+
+
+<!-- - data publications often with general public in mind, not scientific use. 
 - opnts: immediate impact publish machine readable 70 datasets including
-- software encourages others to write processing scripts
+- software encourages others to write processing scripts 
+- open source by default mentality
 - community support
 - integration into teaching
 - feedback with the FSO
-
+ -->
 
 
 
