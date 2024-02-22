@@ -63,7 +63,7 @@ tsplot(tsl)
 
 ```
 
-Because of KOF's national mandate and the regular production of indicators and forecasts over decades, we have maintained steady exchange with key providers and consumers of economic data, such as the Swiss National Bank (SNB), the Swiss Federal Statistical Office (SFSO), the Secretariat of Economic Affairs (SECO), and the cantonal statistical offices.
+Because of KOF's national mandate and the regular production of indicators and forecasts over decades, we have maintained steady exchange with key providers and consumers of economic data, such as the Swiss National Bank (SNB), the Swiss Federal Statistical Office (SFSO), the Secretariat of Economic Affairs (SECO), the State Secretariat of Education, Research, and Innovation (SERI) and the cantonal statistical offices.
 Through our exchange, we are aware that other institutions have often implemented data sourcing procedures to process publicly available data that are similar to our own processes. 
 Hence, we do not only plan to reduce redundant processing across institutions but also to use source code and example data pipelines as a communication channel to dynamically communicate the needs of the open research community and share a collaboratively developed blueprint working process with public data providers.
 This type of horizontal and upstream feedback is a core strategy of the opnts project that we validated in talks with these data providers in advance of this proposal. 
