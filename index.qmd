@@ -41,7 +41,7 @@ As a consequence, variable names or features may change over time and minor erro
 In combination with different degrees of machine readability across different providers of public data, the issues mentioned above can lead to two very heterogeneous situations when it comes to automated data ingestion – particularly for those researchers who need a large amount of data from various providers. 
 
 Our motivation is to help the time series community *immediately,* while larger organizations face different challenges in their own digital transformation.
-We intend to do so by not only open-sourcing a framework to create scientific grade time series from official statistics, but also publishing our framework in the most inclusive way possible: 
+We intend to do so by not only open-sourcing a framework to create scientific grade time series from official statistics, but also publishing our framework in the most inclusive/transparent way possible: [NOT SURE IF INCLUSIVE IS THE RIGHT WORD HERE]
 i) We focus on thorough documentation that involves the community; ii) We provide comprehensive application examples, making many thousand proven time series available; iii) We have an infrastructure-as-code approach and share precise information on how to set up an environment that is capable of running our framework. 
 
 
