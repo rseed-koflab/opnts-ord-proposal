@@ -20,7 +20,10 @@ format:
   html:
     theme: cosmo
   #pdf:
-  #  documentclass: scrreprt
+   # documentclass: scrreprt
+  #docx:
+   # number-sections: true
+   # highlight-style: github
 
 
 

@@ -16,10 +16,6 @@ Opnts bridges the gap between official statistics and academic research. Even th
 In the field of economics, for example, intertemporal comparisons play an important role. This implies regular and timely ingestion of data.
 Traditional data publications are often unsuitable for the scientific consumer, as modern economic (forecasting) models make use of hundreds or thousands of variables stemming from a large range of datasets.
 Particularly, researchers who source a large amount of time series data from different providers suffer from the substantial difference in the pace of the digital transformation across providers or even different departments of the same providers. 
-
-![The screenshot shows an example data publication of the Swiss GDP that uses multiple MS Excel workbook sheets. The publication contains meta information and comments along the data in the same document. The use of non-standard delimiters or varying coding of missing values across columns hampers machine readability further. Source: https://www.bfs.admin.ch/bfs/de/home/statistiken/volkswirtschaft.assetdetail.27065028.html](gdp_example.png)
-
- <!-- insert bfs excel (example of a data publication that is hard to ingest by a machine)-->
  
 Though application programming interfaces (APIs) from the official providers have led to great improvements in the machine readability of public data, machine readability is not homogenous across datasets. Opnts mitigates this dynamic problem by not only publishing time series data created from a fully transparent process, but also by providing an open technical processing framework. The opnts framework eases the data sourcing and quality control burden and, at the same time, encourages researchers to contribute time series datasets of their own. In addition, opnts establishes a steady and hands-on exchange between regional and federal data providers and the community of academic users of public data.
 
@@ -52,7 +48,7 @@ In addition to the strong empirical focus of its academic research, the  KOF Swi
 In the process, KOF produces forecasts and indicators, many of which rely on publicly available data provided by federal and regional administrations. KOF is also involved (together with the ifo Institute in Munich) in the Joint Economic Forecast in Germany, which serves the German government as a benchmark for future economic development.
 At the time of composing this ORD proposal, the KOF time series made more than 31'000 time series publicly available in human browsable and machine-readable fashion alike^[see also https://ts-explorer.kof.ethz.ch]. 
 
-```{r,echo=FALSE,message=FALSE,warnings=FALSE}
+```{r,echo=FALSE,message=FALSE,warnings=FALSE, eval=FALSE}
 #| fig-cap: "The KOF Economic Barometer is a forward looking indicator (FLI) for the Swiss economy. It is well received in Switzerland and used as the official FLI for Switzerland by the International Monetary Fund (IMF)."
 
 library(kofdata)
