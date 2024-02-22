@@ -11,7 +11,7 @@
 
 ## Problem Statement
 
-Opnts bridges the gap between official statistics and academic research. Even though public availability of official statistics is decent in Switzerland, data publications of regional and federal public data providers often lack machine readability. Therefore, these data publications are not convenient for academic researchers.
+Opnts bridges the gap between official statistics and academic research. Even though public availability of official statistics is decent in Switzerland, data publications of regional and federal public data providers often lack machine readability. Therefore, these data publications are not convenient for academic researchers and other interested groups.[MAYBE YOU WANT TO ADD SOME EXAMPLES].
 
 In the field of economics, for example, intertemporal comparisons play an important role. This implies regular and timely ingestion of data.
 Traditional data publications are often unsuitable for the scientific consumer, as modern economic (forecasting) models make use of hundreds or thousands of variables stemming from a large range of datasets.
