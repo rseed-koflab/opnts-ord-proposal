@@ -165,7 +165,7 @@ Technically, the *opents* framework consists of a core R package and several dat
 
 We will also explore more recent and experimental approaches such as r-universe which helps to improve our reach in the data science community. In WP2, we aim to expose our work to an rOpenSci peer review. rOpenSci shares our values of open and reproducible research through reusable and helps us to reach ORD excellence. 
 
-- choosealicense
+- choosealicense 
 - CRAN
 - GitHub
 - runiverse
