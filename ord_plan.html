@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ORD Proposal: opnts - 2&nbsp; ORD Project Plan</title>
+<title>ORD Proposal: Open Time Series - 2&nbsp; ORD Project Plan</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -50,7 +50,7 @@ div.csl-indent {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./impact.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./intro.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -102,7 +102,7 @@ div.csl-indent {
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">ORD Proposal: opnts</a> 
+      <a href="./">ORD Proposal: Open Time Series</a> 
     </div>
       </div>
       <div class="mt-2 flex-shrink-0 align-items-center">
@@ -114,7 +114,12 @@ div.csl-indent {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Abstract</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -200,10 +205,10 @@ Activities and Research Questions
 <p>RQ 0.2: How can we integrate usage of publicly available data into teaching?</p>
 </div>
 </div>
-<p><strong>During the starting stage of our project, we coordinate with major public data providers and involve data sources in our planning early on. We do so to establish and maintain active, lively communication between public data providers and the scientific community.</strong></p>
+<p><em>During the starting stage of our project, we coordinate with major public data providers and involve data sources. We will do so to establish and maintain active, lively communication between public data providers and the scientific community.</em></p>
 <!-- activities & RQs -->
-<p>Publicly available economic data provided by the Federal Statistical Office (FSO), the Secretariat of Economic Affairs (SECO), the Swiss National Bank (SNB), and regional Statistical Offices are important sources for economic research and monitoring of the Swiss economy. To develop an ORD spirit and a community of a data providers and scientific users of the data, it is crucial to involve these public institutions early on. Early dialogue helps to avoid redundancies with existing data community initiatives and to develop a common understanding of <em>open data</em>, machine readability and datasets of priority.</p>
-<p>One of the core ideas is to leverage the investment into open data by integrating public data into academic teaching to strengthen the connection between public administration and academia. To explore how to effectively use the joint expertise of public data providers, domain experts, data stewards of the ETH domain, and data engineers, we launch a series of monthly meetups early in the process. The meetups are designed to foster inclusive, expert discussions through publicly pre-circulated content. We are working to integrate our meetup series into the academic curriculum at ETH, but we keep the series open to interested participants beyond academia.</p>
+<p>Publicly available economic data provided by the Federal Statistical Office (FSO), the Secretariat of Economic Affairs (SECO), the Swiss National Bank (SNB), and regional Statistical Offices are important sources for economic research and monitoring of the Swiss economy. To develop an ORD spirit and a community of data providers and scientific users of the data, it is crucial to involve these public institutions early on. Early dialogue helps to avoid redundancies with existing data community initiatives and to develop a common understanding of <em>open data</em>, machine readability and datasets of priority.</p>
+<p>One of the core ideas is to leverage existing, general investment into publicly available economic data by integrating public data into academic teaching to strengthen the connection between public administration and academia. To explore how to effectively use the joint expertise of public data providers, domain experts, data stewards of the ETH domain, and data engineers, we will launch a series of monthly meetups early in the process. The meetups are designed to foster inclusive, expert discussions through publicly pre-circulated content. We are working to integrate our meetup series into the academic curriculum at ETH, but we keep the series open to interested participants beyond academia.</p>
 </section>
 <section id="wp1-make-data-processing-framework-inclusive" class="level2" data-number="2.2">
 <h2 data-number="2.2" class="anchored" data-anchor-id="wp1-make-data-processing-framework-inclusive"><span class="header-section-number">2.2</span> WP1: Make Data Processing Framework Inclusive</h2>
@@ -229,30 +234,30 @@ Activities and Research Questions
 </div>
 </div>
 <!-- communication through the opents project, code as communication channel -->
-<p>In Work Package 1 (WP1), we lay the technical foundation for turning KOF Swiss Economic Institute’s existing production process of macroeconomic time series into an open-source framework that creates publicly available, machine-readable scientific-grade time series in fully reproducible fashion. Our approach uses license cost free open source software and aims to publish not only the resulting time series data but also the technical framework and infrastructure setup. Doing so ensures reproducibility and helps to comply with FAIR principles. Thanks to our infrastructure-as-code approach we can publish information on an ideal runtime environment to help others operate their own instance of the <em>opents</em> framework.</p>
+<p><em>In Work Package 1 (WP1), we lay the technical foundation for turning KOF Swiss Economic Institute’s existing production process of macroeconomic time series into an open-source framework that creates publicly available, machine-readable, scientific-grade time series in a fully reproducible fashion. Our approach uses open-source software licenses that are free of license costs and aims to publish not only the resulting time series data but also the technical framework and infrastructure setup. Doing so ensures reproducibility and helps to comply with FAIR principles. Thanks to our infrastructure-as-code approach, we can publish information on an ideal runtime environment to help others operate their own instance of the </em>Open Time Series* framework.*</p>
 <p>Because an active community is inevitable to keep the project sustainable, i.e., well maintained, we chose the R Project for Statistical Computing as our main programming language for the implementation of the framework. R is known for its large and inclusive community with its annual user conferences <span class="citation" data-cites="inclusivecon">(<a href="references.html#ref-inclusivecon" role="doc-biblioref"><strong>inclusivecon?</strong></a>)</span> and vibrant local communities<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> . Alongside its strong regional and international community, the fact that R is open source and free of license costs lowers the barrier to entrance and contribution considerably. In addition, R offers well-established boiler plating ecosystems like <em>usethis</em> <span class="citation" data-cites="usethis">(<a href="references.html#ref-usethis" role="doc-biblioref">Wickham et al. 2023</a>)</span> and documentation frameworks such as <em>pkgdown</em> <span class="citation" data-cites="pkgdown">(<a href="references.html#ref-pkgdown" role="doc-biblioref">Wickham, Hesselberth, and Salmon 2022</a>)</span> or Roxygen <span class="citation" data-cites="roxygen2">(<a href="references.html#ref-roxygen2" role="doc-biblioref">Wickham et al. 2022</a>)</span>.</p>
-<p>WP1 focuses on the homogenization of the data ingestion process across datasets and data providers. In the first implementation step, we identify common parts of the ingestion process. We bundle these common parts in an R package that forms our core library and fosters reuse of source code. We encourage the community to use our core packages and to contribute by adding further dataset-specific packages. To inspire contributions, we supplement the opents core, based on our long-term experience as consumers of public data, with provider-specific ingestion libraries written in R that cover dataset idiosyncrasies.</p>
+<p>WP1 focuses on the homogenization of the data ingestion process across datasets and data providers. In the first implementation step, we identify common parts of the ingestion process. We bundle these common parts in an R package that forms our core library and fosters reuse of source code. We encourage the community to use our core packages and to contribute by adding further dataset-specific packages. To inspire contributions, we supplement the <em>Open Time Series</em> framework’s core, based on our long-term experience as consumers of public data, with provider-specific ingestion libraries written in R that cover dataset idiosyncrasies.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="gdp_example.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">Example of a traditional official data publication of the Swiss GDP. Source: SECO, https://www.seco.admin.ch/seco/en/home/wirtschaftslage—wirtschaftspolitik/Wirtschaftslage/bip-quartalsschaetzungen-/daten.html</figcaption><p></p>
 </figure>
 </div>
-<p>The above screenshot shows a traditional data publication of an official GDP statistic. Its use of multiple worksheets, empty lines and multi-line headers hampers machine readability. Like many regular consumers of the information contained in this spreadsheet, KOF ingest this information immediately after its publication.</p>
+<p>The above screenshot shows a traditional data publication of an official GDP statistic. Its use of multiple worksheets, empty lines and multi-line headers hampers machine readability. Like many regular consumers of the information contained in this spreadsheet, KOF ingests this information immediately after its publication.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="longformat.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">Screenshot of a machine-readable data file, processed by an R-based engine.</figcaption><p></p>
 </figure>
 </div>
-<p>To have a homogeneous, machine-readable representation of the data, we split this information into two files: based on the CSV on the web idea by the World Wide Web Consortium (W3C), we use a long format CSV file for the data and a JSON file for the metadata. The metadata file takes advantage of the JSON format’s ability to handle nested data to store comprehensive, multilingual meta information. Our collaborative approach with the Secretariat of Economic Affairs (SECO) led to a pioneering pilot publication of machine-readable data on the official SECO website: Machine-readable data is published in complementary fashion to the traditional GDP publication<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</p>
+<p>To have a homogeneous, machine-readable representation of the data, we split this information into two files: based on the CSV on the web idea by the World Wide Web Consortium (W3C), we use a long format CSV file for the data and a JSON file for the metadata. The metadata file takes advantage of the JSON format’s ability to handle nested data to store comprehensive, multilingual meta information. Our collaborative approach with the Secretariat of Economic Affairs (SECO) led to a pioneering pilot publication of machine-readable data on the official SECO website: Machine-readable data is published in a complementary fashion to the traditional GDP publication<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="metadata.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">Excerpt of the corresponding metadata file in JSON format.</figcaption><p></p>
 </figure>
 </div>
-<p>At the end of WP1, we plan to iterate over the resulting datasets and data descriptions and enhance meta information where necessary. We do so in reproducible and transparent fashion by adding all changes to the source code that produces the data and metadata files.</p>
+<p>At the end of WP1, we plan to iterate over the resulting datasets and data descriptions and enhance meta information where necessary. We do so in a reproducible and transparent fashion by adding all changes to the source code that produces the data and metadata files.</p>
 </section>
 <section id="wp2-publication" class="level2" data-number="2.3">
 <h2 data-number="2.3" class="anchored" data-anchor-id="wp2-publication"><span class="header-section-number">2.3</span> WP2: Publication</h2>
@@ -280,15 +285,15 @@ Activities and Research Questions
 </div>
 </div>
 <p><em>The goal of Work Package 2 (WP2) is to find the platforms that suit our community, data and code components best and facilitate our approach to ORD. We will involve our data consumers and collaborators into this decision-making process. Based on our </em>open by default* thinking, we will publish not only the resulting time series data and meta information, but all components of our software framework. In the process, we will work together with the ETH legal service to find the most suitable open source licensing solution<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> for all components of the opents project.*</p>
-<p>The <em>opents</em> approach, suggested here, splits data and meta information into two separate text files and formats: a simple CSV spreadsheet and a nested JSON file for multilingual data description. Having two simple text files per dataset allows us to disseminate the resulting time series data on free, standard infrastructure such as GitHub, which is well established in the open-source community. The state-of-the-art rendering of CSV spreadsheets of modern git platforms sets the barrier to exploring and consuming our scientific use time series datasets as low as possible. Hence, the publication of data on GitHub, possibly using git’s Large File Storage (LFS) extension, forms our baseline scenario. Yet, in WP2, we explore the feasibility of other, complementary, regional and international publication channels such as opendata.swiss<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>, r-universe or Zenodo.</p>
-<p>Technically, the <em>opents</em> framework consists of a core R package and several data provider-specific ingestion packages. Again, we see the publication of all these components as open-source libraries on GitHub (or another major Git platform with good visibility) as the baseline form of publication. In addition, WP2 explores which of our components are suitable for a publication on the Comprehensive R Archive Network (CRAN). Publication on CRAN comes with requirements and quality control but opens up our work to a larger audience as endusers face the lowest possible hurdle to install our packages.</p>
+<p>The <em>Open Time Series</em> project’s approach, suggested here, splits data and meta information into two separate text files and formats: a simple CSV spreadsheet and a nested JSON file for multilingual data description. Having two simple text files per dataset allows us to disseminate the resulting time series data on free, standard infrastructure such as GitHub, which is well established in the open-source community. The state-of-the-art rendering of CSV spreadsheets on modern git platforms sets the barrier to exploring and consuming our scientific use time series datasets as low as possible. Hence, the publication of data on GitHub, possibly using git’s Large File Storage (LFS) extension, forms our baseline scenario. Yet, in WP2, we explore the feasibility of other, complementary, regional and international publication channels such as opendata.swiss<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>, r-universe or Zenodo.</p>
+<p>Technically, the <em>Open Time Series</em> framework consists of a core R package and several data provider-specific ingestion packages. Again, we see the publication of all these components as open-source libraries on GitHub (or another major Git platform with good visibility) as the baseline form of publication. In addition, WP2 explores which of our components are suitable for publication on the Comprehensive R Archive Network (CRAN). Publication on CRAN comes with requirements and quality control but opens up our work to a larger audience as endusers face the lowest possible hurdle to installing our packages.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="install.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Download of R packages from CRAN is very convenient in all major R environments. The screenshot shows an example of RStudio’s graphical user interface for searching and downloading a package.</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Download of R packages from CRAN is very convenient in all major R environments. The screenshot shows an example of RStudio’s graphical user interface for searching and downloading packages.</figcaption><p></p>
 </figure>
 </div>
-<p>We will also explore more recent and experimental approaches, such as r-universe which helps to improve our reach in the data science community. In WP2, we aim to expose our work to an rOpenSci peer review. rOpenSci shares our values of open and reproducible research through reuse and helps us reach ORD excellence.</p>
+<p>We will also explore more recent and experimental approaches, such as <em>r-universe</em> which helps to improve our reach in the data science community. In WP2, we aim to expose our work to an <em>rOpenSci</em> peer review. <em>rOpenSci</em> shares our values of open and reproducible research through reuse and helps us reach ORD excellence.</p>
 </section>
 <section id="wp3-facilitate-usage-and-applications" class="level2" data-number="2.4">
 <h2 data-number="2.4" class="anchored" data-anchor-id="wp3-facilitate-usage-and-applications"><span class="header-section-number">2.4</span> WP3: Facilitate Usage and Applications</h2>
@@ -305,101 +310,16 @@ Activities and Research Questions
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Activity 3.1: Integrate opnts Framework and Data into Hacking for Science Courses</p>
+<p>Activity 3.1: Integrate <em>Open Time Series</em> Framework and Data into Hacking for Science Courses</p>
 <p>Activity 3.2: Organization of a Community Event</p>
 <p>RQ 3.1: What degree of data engineering literacy do scholar from different fields of research need?</p>
 <p>RQ 3.2: Future Outlook –&nbsp;What are the next steps to extend opents to other fields?</p>
 </div>
 </div>
-<p><em>The goal of work package 3 (WP3) is to promote usage of the framework and data as well as to encourage others to contribute. In particular we are looking for community contributions such as maintenance of existing datasets, addition of public datasets that have not yet been processed and community activities. At this stage, we will also intensify activities to explore the expansion of </em>opnts* into different academic fields.*</p>
-<p>We plan to approach the above goals in three ways: i) integration of opnts data and software into academic teaching aimed at scientists from different disciplines. ii) presentation of opnts at useR! 2024 in Salzburg, Austria<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>. iii) participation in local community events iv) hosting of an own event at KOF.</p>
-<p>Starting in fall 2024, opnts data and software will be integrated into the Hacking for Science course<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>. Originally created for ETHZ D-MTEC PhD students, Hacking for Science is a highly interactive online course whose big picture guidance and hands-on software development approach continues to draw interest from students from a variety of fields. The course last iteration welcomed students from more than 10 different ETH departments as well as guests from outside ETH. We aim to communicate the value of open data to this broad audience and learn which challenges ORD faces in different fields. Currently, we also explore the possibility of running Hacking for Research Assistants&nbsp;– a satellite event for research assistants. In addition our teaching is complemented by the RSEED seminar series started in early 2024 which gives us an additional channel to promote an ORD mindset.</p>
-<p>Centered around the submission of opents to useR! 2024, we plan further activity at conferences and community events. At ETH, the Scientific Computing group has recently founded a Research Software Engineering (RSE) group<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> to connect software engineers in science at ETH. Regular RSE events at ETH as well as the vibrant, local open source and opendata community<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> will gives us a chance to present the opnts project, e.g., at the RSE group or the local R user group. KOF hosted useR! in 2021 and is well connected to the R community. This history and connections gives a great chance for a successful application to host an existing special interest conference such as <em>R in Official Statistics</em> at KOF. Hosting a well-established, smaller special interest conference allows us to give the entire event an ORD focus push ORD excellence in Official Statistics.</p>
-<!--- crap line
-
-
-
- - RSECON 2024 (in case of budget restrictions)
- - regular updates within community through out the project: opendatabeer, lovedata week, etc. - continuously establish and bolster community (sustainability, can survive without us)
-
-
- - plan to present and promote UseR in Salzburg...
-
-Finally, opnts will be presented at a number of community events focused on research software engineering (and economic data). Existing community events such as RSE@ETH, RSECON 2024 and the RSEED at KOF meetup series have a large and intersectoral reach. From academia to administration and the private sector, the audience of these events is more diverse than that of a single event. By presenting the opnts project at conferences or events such as these, we introduce opnts to professionals in different fields with different open source needs and ideas for collaboration.
-
-
-
-
-
-<!-- crap line
-
-The source code that we develop at this stage aims to implement and communicate open data standards and at the same time creates machine ingestion friendly datasets. we benchmark and update data and metadata against as fair principle a benchmark of 
-
-
-
-
-
-
- When monitoring the Swiss economy, we compare publication dates, download files or consume APIs. 
-
- ,
-
-
-In the process, operations such as downloads, exchange with industry standard APIs and comparison of publication are relatively common across datasets and providers while data transformation can be very specific. We compose these common parts in a opents-core R package. 
-
-
-next up: modular packages. 
-
-
-
- through tasks as monitors of the Swiss economy (KOF), we identify common ground 
-
-accountability, monitoring
-
-
-
-
-ORD excellence
-
-- critical problem
-- beyond state of the art
-- integration of existing ORD practices (open source, reproducibility)
-
-RQ1 components of a framework
-
-- data repository
-
- (RQ2)
-- standards for data and data description -> FAIR
-
-
-
-
-RQ3
-
-- interactivity
-- language / wording
-- application examples / interactivity
-- community support -> matrix 
-- portfolio type of examples (confidence in approach)
-
-- implement data provider specific code for core datasets (specific)
-- develop documentation that fosters inclusion of the community, encourages use of the library AND resulting datasets
-- prepare for publication of engine
-- reproducible research
-
-
-DONE
-- common source code (reuse)
-- source specific source code (modular)
-- community 
-- open source, free of license costs
-- runtime environment
-
-
-
-
- -->
+<p><em>The goal of work package 3 (WP3) is to promote usage of the framework and data as well as to encourage others to contribute. In particular we are looking for community contributions such as maintenance of existing datasets, addition of public datasets that have not yet been processed and community activities. At this stage, we will also intensify activities to explore the expansion of <strong>Open Time Series</strong> into different academic fields.</em></p>
+<p>We plan to approach the above goals in three ways: i) integration of <em>Open Time Series</em> data and software into academic teaching aimed at scientists from different disciplines. ii) presentation of <em>Open Time Series</em> at useR! 2024 in Salzburg, Austria<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>. iii) participation in local community events iv) hosting of an own event at KOF.</p>
+<p>Starting in fall 2024, <em>Open Time Series</em> data and software will be integrated into the Hacking for Science course<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>. Originally created for ETHZ D-MTEC PhD students, Hacking for Science is a highly interactive online course whose big picture guidance and hands-on software development approach continues to draw interest from students from a variety of fields. The course last iteration welcomed students from more than 10 different ETH departments as well as guests from outside ETH. We aim to communicate the value of open data to this broad audience and learn which challenges ORD faces in different fields. Currently, we also explore the possibility of running Hacking for Research Assistants&nbsp;– a satellite event for research assistants. In addition our teaching is complemented by the RSEED seminar series started in early 2024 which gives us an additional channel to promote an ORD mindset.</p>
+<p>Centered around the submission of opents to useR! 2024, we plan further activity at conferences and community events. At ETH, the Scientific Computing group has recently founded a Research Software Engineering (RSE) group<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> to connect software engineers in science at ETH. Regular RSE events at ETH as well as the vibrant, local open source and opendata community<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> will gives us a chance to present the <em>Open Time Series</em> project, e.g., at the RSE group or the local R user group. KOF hosted useR! in 2021 and is well connected to the R community. This history and connections gives a great chance for a successful application to host an existing special interest conference such as <em>R in Official Statistics</em> at KOF. Hosting a well-established, smaller special interest conference allows us to give the entire event an ORD focus push ORD excellence in Official Statistics.</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
@@ -420,7 +340,7 @@ Wickham, Hadley, Jay Hesselberth, and Maëlle Salmon. 2022. <em>Pkgdown: Make St
 <section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
 <hr>
 <ol>
-<li id="fn1"><p><span class="citation" data-cites="rsebook">Bannert (<a href="references.html#ref-rsebook" role="doc-biblioref">2024 forthcoming</a>)</span> discusses the importance of communities for the learner, including experience from hosting the useR! Conference 2021 which KOF co-chaired.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p><span class="citation" data-cites="rsebook">Bannert (<a href="references.html#ref-rsebook" role="doc-biblioref">2024 forthcoming</a>)</span> discusses the importance of communities for the learner, including experience from hosting the useR! Conference 2021 which KOF co-chaired in a dedicated community chapter.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn2"><p>See also: https://www.seco.admin.ch/seco/en/home/wirtschaftslage—wirtschaftspolitik/Wirtschaftslage/bip-quartalsschaetzungen-/daten.html<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn3"><p>see https://choosealicense.com/<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn4"><p>https://opendata.swiss<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
@@ -567,7 +487,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link">
+      <a href="./intro.html" class="pagination-link">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span>
       </a>          
   </div>
