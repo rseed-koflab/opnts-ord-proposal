@@ -25,8 +25,8 @@ The ETH domain and its staff contributed substantially to the language and its e
 
 ## Solving a Critical Problem
 
-Although there has been a certain sense of urgency for digital transformation in the public sector since the pandemic at the latest, change management schedules do not always align with the timeline of individual academic careers or ongoing daily business. 
-While we greatly appreciate advances in the above efforts, we provide an immediate solution to data sourcing to those that need to ingest public data today. 
+Although there has been a certain sense of urgency for digital transformation in the public sector since the pandemic at the latest, change management within large institutions do not always align with the timeline of individual academic careers or ongoing daily business. 
+While we greatly appreciate advances in making official statistics available through application programming interfaces (API) as well as investment into community exchange, we provide an immediate solution to data sourcing to those that need to source public data today. 
 In addition, we help identify redundant efforts across institutions and broker usage of common sources, using public money more efficiently. 
 Finally, we help bridge the gap and strengthen the link between public administration and academic research.
 
