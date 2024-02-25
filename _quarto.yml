@@ -8,6 +8,7 @@ book:
   date: "1/18/2024"
   chapters:
     - index.qmd
+    - intro.qmd
     - ord_plan.qmd
     - impact.qmd
     - overview.qmd
