@@ -1,67 +1,21 @@
-# Introduction
+## Abstract {.unnumbered}
+
+Because data publications of public data providers focus on a broader audience, publicly available datasets are often not convenient to use for academic research. 
+As a result, data sourcing processes are implemented redundantly across research projects and institutions, often in an only partly automated, possibly error-prone way. 
+The *Open Time Series* project addresses this problem by homegenizing, documenting and open-sourcing KOF's well-tested data sourcing processes of public data as well as the resulting scientific use grade, machine-readable time series datasets. 
+This publication of thousands of machine-readable macroeconomic time series and their metadata has an immediate impact on the economic and real-time analysis research communities.
+In addition, our community approach, the exemplary character and inclusive manner of these reproducible data publications promises to have spillover effects to other communities in the longer run. 
+Our well-established network helps further to make our impact sustainable through the upstream feedback we give to data providers such as the Federal Statistical Office (FSO), the Swiss National Bank (SNB), the Secretariat of Economic Affairs (SECO) and cantonal statistical offices. 
+Finally, the inclusion of the *Open Time Series* framework and datasets into teaching pushes ORD excellence by ensuring that the next generation of public servants is familiar with ORD principles and publicly available Swiss data.
+
+
+
 
 
 |  |  |
 |:-----|:----|
-|   Full title  |  opnts - An Open Framework to Create Scientific Grade Time Series Datasets from Public Data
+|   Full title  |  Open Time Series - An Open Framework to Create Scientific Grade Time Series Datasets from Public Data
   |
 |  Keywords |  Open Data, Official Statistics, Time Series Analysis, Data Literacy, Automation, Machine Readability, Community
  |
-
-
-## Problem Statement
-
-Opnts bridges the gap between official statistics and academic research. Even though public availability of official statistics is decent in Switzerland, data publications of regional and federal public data providers often lack machine readability. Therefore, these data publications are not convenient for academic researchers and other interested groups.[MAYBE YOU WANT TO ADD SOME EXAMPLES].
-
-In the field of economics, for example, intertemporal comparisons play an important role. This implies regular and timely ingestion of data.
-Traditional data publications are often unsuitable for the scientific consumer, as modern economic (forecasting) models make use of hundreds or thousands of variables stemming from a large range of datasets.
-Particularly, researchers who source a large amount of time series data from different providers suffer from the substantial difference in the pace of the digital transformation across providers or even different departments of the same providers. 
- 
-Though application programming interfaces (APIs) from the official providers have led to great improvements in the machine readability of public data, machine readability is not homogenous across datasets. Opnts mitigates this dynamic problem by not only publishing time series data created from a fully transparent process, but also by providing an open technical processing framework. The opnts framework eases the data sourcing and quality control burden and, at the same time, encourages researchers to contribute time series datasets of their own. In addition, opnts establishes a steady and hands-on exchange between regional and federal data providers and the community of academic users of public data.
-
-
-## Background and Motivation
-
-Though we aim to extend the approach suggested in this proposal to other fields in the future, this *Explore* proposal focuses on our 'home court' disciplines of public statistics and empirical economics.
-We are confident that our strong network in both of these fields will leverage our initial push enough to give the impact of the *opents* project a great chance to spill over to other communities. 
-The following sections introduce our background and explain how the proposed project helps the economics, forecasting and open data communities. 
-
-### Time Series Analysis, Forecasting and Data Science in Economics
-
-Time Series analysis continues to play an important role in many strands of modern empirical economics: 
-Economic forecasting and its evaluation, studies of shock absorption, and many other econometric modeling exercises ask for data that allow intertemporal comparison. 
-Modern models often use hundreds, or even thousands, of time series. 
-
-Even though machine readability of publicly available data has improved in Switzerland thanks to great efforts led by the Swiss Federal Statistical Office (SFSO), researchers face a publication mindset that is focused on the wider public and hence on the most recent wave of data. 
-As a consequence, variable names or features may change over time and minor errors may simply get corrected ad hoc or with the next publication — even in datasets that are already available through an application programming interface. 
-In combination with different degrees of machine readability across different providers of public data, the issues mentioned above can lead to two very heterogeneous situations when it comes to automated data ingestion – particularly for those researchers who need a large amount of data from various providers. 
-
-Our motivation is to help the time series community *immediately,* while larger organizations face different challenges in their own digital transformation.
-We intend to do so by not only open-sourcing a framework to create scientific grade time series from official statistics, but also publishing our framework in the most inclusive/transparent way possible: [NOT SURE IF INCLUSIVE IS THE RIGHT WORD HERE]
-i) We focus on thorough documentation that involves the community; ii) We provide comprehensive application examples, making many thousand proven time series available; iii) We have an infrastructure-as-code approach and share precise information on how to set up an environment that is capable of running our framework. 
-
-
-### Sustainability through Cooperation: Official Statistics and Public Data
-
-At the same time, our background in regular publication of data-driven indicators and our identification with the official statistics community ensure the sustainability of the *opnts* effort.
-In addition to the strong empirical focus of its academic research, the  KOF Swiss Economic Institute at ETH Zurich has a national mandate to monitor the Swiss economy.
-In the process, KOF produces forecasts and indicators, many of which rely on publicly available data provided by federal and regional administrations. KOF is also involved (together with the ifo Institute in Munich) in the Joint Economic Forecast in Germany, which serves the German government as a benchmark for future economic development.
-At the time of composing this ORD proposal, the KOF time series made more than 31'000 time series publicly available in human browsable and machine-readable fashion alike^[see also https://ts-explorer.kof.ethz.ch]. 
-
-```{r,echo=FALSE,message=FALSE,warnings=FALSE, eval=FALSE}
-#| fig-cap: "The KOF Economic Barometer is a forward looking indicator (FLI) for the Swiss economy. It is well received in Switzerland and used as the official FLI for Switzerland by the International Monetary Fund (IMF)."
-
-library(kofdata)
-library(tstools)
-tsl <- get_time_series("ch.kof.barometer")
-tsplot(tsl)
-
-
-```
-
-Because of KOF's national mandate and the regular production of indicators and forecasts over decades, we have maintained steady exchange with key providers and consumers of economic data, such as the Swiss National Bank (SNB), the Swiss Federal Statistical Office (SFSO), the Secretariat of Economic Affairs (SECO), the State Secretariat of Education, Research, and Innovation (SERI) and the cantonal statistical offices.
-Through our exchange, we are aware that other institutions have often implemented data sourcing procedures to process publicly available data that are similar to our own processes. 
-Hence, we do not only plan to reduce redundant processing across institutions but also to use source code and example data pipelines as a communication channel to dynamically communicate the needs of the open research community and share a collaboratively developed blueprint working process with public data providers.
-This type of horizontal and upstream feedback is a core strategy of the opnts project that we validated in talks with these data providers in advance of this proposal. 
-Concrete steps could be the integration of FSO experts into teaching or the use of Swiss data in academic teaching and open-source software packages.
 
