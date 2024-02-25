@@ -16,9 +16,8 @@ It is particularly important to us to not only solve a critical problem in our c
 
 ## Sustainability in the ETH Domain
 
-Regular and timely data sourcing is mandatory for KOF's academic and national tasks. 
-Hence, we are fully convinced that pushing an ORD approach at KOF, will help advances ORD practices in empirical economics and official statistics in the long term. 
-The use of the opnts framework in teaching and the economic community helps to leverage digital transformation efforts in official statistics, as future researchers and public servants alike become familiar with Swiss official statistics data and ORD principles. 
+To push an ORD approach at KOF which has a leading role in the field of economics in Switzerland and a national mandate to monitor the Swiss economy will help advances ORD practices in empirical economics and official statistics in the long term. 
+The use of the opnts framework in teaching and monitoring work that involves official statistics will help the digital transformation process in official statistics through education of future researchers and public servants who become familiar with Swiss official statistics data and ORD principles alike. 
 In addition, our inclusive approach helps to keep the community involved, while the idea of modular software packages with their maintainers allows for the passing on of responsibilities in case of changes in personnel.
 The Comprehensive R Archive Network (CRAN) and the R Project for Statistical Computing have a long tradition at ETH.
 The ETH domain and its staff contributed substantially to the language and its extension packages, including to CRAN itself^[see also https://stat.ethz.ch/CRAN/]. 
