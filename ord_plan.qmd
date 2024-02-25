@@ -40,7 +40,7 @@ r <- tbl |>
 :::
 
 
-**During the starting stage of our project, we coordinate with major public data providers and involve data sources. We will do so to in order to establish and maintain active, lively communication between public data providers and the scientific community.** 
+*During the starting stage of our project, we coordinate with major public data providers and involve data sources. We will do so to in order to establish and maintain active, lively communication between public data providers and the scientific community.* 
 
 <!-- activities & RQs -->
 Publicly available economic data provided by the Federal Statistical Office (FSO), the Secretariat of Economic Affairs (SECO), the Swiss National Bank (SNB), and regional Statistical Offices are important sources for economic research and monitoring of the Swiss economy. To develop an ORD spirit and a community of data providers and scientific users of the data, it is crucial to involve these public institutions early on. Early dialogue helps to avoid redundancies with existing data community initiatives and to develop a common understanding of *open data*, machine readability and datasets of priority. 
@@ -90,8 +90,8 @@ r <- tbl |>
 
 <!-- communication through the opents project, code as communication channel --> 
 
-In Work Package 1 (WP1), we lay the technical foundation for turning KOF Swiss Economic Institute's existing production process of macroeconomic time series into an open-source framework that creates publicly available, machine-readable scientific-grade time series in fully reproducible fashion. 
-Our approach uses open source software licenses that are free of license costs and aims to publish not only the resulting time series data but also the technical framework and infrastructure setup. Doing so ensures reproducibility and helps to comply with FAIR principles. Thanks to our infrastructure-as-code approach we can publish information on an ideal runtime environment to help others operate their own instance of the *opents* framework.
+*In Work Package 1 (WP1), we lay the technical foundation for turning KOF Swiss Economic Institute's existing production process of macroeconomic time series into an open-source framework that creates publicly available, machine-readable scientific-grade time series in fully reproducible fashion. 
+Our approach uses open source software licenses that are free of license costs and aims to publish not only the resulting time series data but also the technical framework and infrastructure setup. Doing so ensures reproducibility and helps to comply with FAIR principles. Thanks to our infrastructure-as-code approach we can publish information on an ideal runtime environment to help others operate their own instance of the *opents* framework.*
 
 Because an active community is inevitable to keep the project sustainable, i.e., well maintained, we chose the R Project for Statistical Computing as our main programming language for the implementation of the framework. R is known for its large and inclusive community with its annual user conferences [@inclusivecon] and vibrant local communities^[@rsebook discusses the importance of communities for the learner, including experience from hosting the useR! Conference 2021 which KOF co-chaired in a dedicated community chapter.] . Alongside its strong regional and international community, the fact that R is open source and free of license costs lowers the barrier to entrance and contribution considerably. In addition, R offers well-established boiler plating ecosystems like *usethis* [@usethis] and documentation frameworks such as *pkgdown* [@pkgdown] or Roxygen [@roxygen2]. 
 
