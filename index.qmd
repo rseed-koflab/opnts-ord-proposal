@@ -3,7 +3,7 @@
 
 |  |  |
 |:-----|:----|
-|   Full title  |  opnts - An Open Framework to Create Scientific Grade Time Series Datasets from Public Data
+|   Full title  |  Open Time Series - An Open Framework to Create Scientific Grade Time Series Datasets from Public Data
   |
 |  Keywords |  Open Data, Official Statistics, Time Series Analysis, Data Literacy, Automation, Machine Readability, Community
  |
@@ -11,13 +11,13 @@
 
 ## Problem Statement
 
-Opnts bridges the gap between official statistics and academic research. Even though most official statistics in Switzerland are publicly available, data publications from regional and federal public data providers often lack machine readability. Therefore, these data publications are not convenient for academic researchers and other groups who ingest public data frequently.
+*Open Time Series* bridges the gap between official statistics and academic research. Even though most official statistics in Switzerland are publicly available, data publications from regional and federal public data providers often lack machine readability. Therefore, these data publications are not convenient for academic researchers and other groups who ingest public data frequently.
 
 In the field of economics, for example, intertemporal comparisons play an important role. This type of research implies regular and timely sourcing of data.
 Traditional data publications are often unsuitable^[See Working Package 1 of the ORD Project Plan for a concrete example of challenges with processing of official statistics.] for the scientific consumer, as modern economic (forecasting) models make use of hundreds or thousands of variables stemming from a large range of datasets.
 Particularly, researchers who source a large amount of time series data from different providers suffer from the substantial difference in the pace of the digital transformation across providers or even different departments of the same providers. 
  
-Though application programming interfaces (APIs) from the official providers have led to great improvements in the machine readability of public data, machine readability is not homogenous across datasets. Opnts mitigates this dynamic problem by not only publishing time series data created from a fully transparent process, but also by providing an open technical processing framework. The opnts framework eases the data sourcing and quality control burden and, at the same time, encourages researchers to contribute time series datasets of their own. In addition, opnts establishes a steady and hands-on exchange between regional and federal data providers and the community of academic users of public data.
+Though application programming interfaces (APIs) from the official providers have led to great improvements in the machine readability of public data, machine readability is not homogenous across datasets. *Open Time Series* mitigates this dynamic problem by not only publishing time series data created from a fully transparent process, but also by providing an open technical processing framework. The *Open Time Series* framework eases the data sourcing and quality control burden and, at the same time, encourages researchers to contribute time series datasets of their own. In addition, *Open Time Series* establishes a steady and hands-on exchange between regional and federal data providers and the community of academic users of public data.
 
 
 ## Background and Motivation
@@ -50,7 +50,7 @@ i) We focus on thorough documentation that involves the community;
 
 ii) We provide comprehensive application examples facilitating transfer to one's own needs, making many thousand proven time series publicly available; 
 
-iii) Machine readable data and the opnts automation framework facilitate hosting a versioned time series database substantially;
+iii) Machine readable data and the *Open Time Series* automation framework facilitate hosting a versioned time series database substantially;
 
 iv) We have an infrastructure-as-code approach and share precise information on how to set up an environment that is capable of running our framework. 
 
@@ -59,7 +59,7 @@ iv) We have an infrastructure-as-code approach and share precise information on 
 
 ### Sustainability through Cooperation: Official Statistics and Public Data {.unnumbered}
 
-At the same time, our commitment to regular publication of data-driven indicators designed for intertemporal comparison and our leading role in the community ensures the sustainability of the *opnts* effort.
+At the same time, our commitment to regular publication of data-driven indicators designed for intertemporal comparison and our leading role in the community ensures the sustainability of the **Open Time Series** effort.
 The strong empirical focus of the academic research of the KOF Swiss Economic Institute at ETH provides great synergies with the production of forecasts and indicators, many of which rely on publicly available data provided by federal and regional administrations.
 
 ```{r,echo=FALSE,message=FALSE,warnings=FALSE, eval=TRUE}
@@ -92,14 +92,14 @@ iii.) we develop a blueprint working process in collaborative fashion, increasin
 
 :::
 
-The horizontal and upstream feedback generated in the process is a core strategy of the opnts project that we validated in talks with official data providers in advance of this proposal.
+The horizontal and upstream feedback generated in the process is a core strategy of the *Open Time Series* project that we validated in talks with official data providers in advance of this proposal.
 Communication through code is unambiguous and reproducible and helps communicate needs across fields and perspectives and focuses.  
 Further concrete steps could be the integration of FSO experts into teaching or the use of Swiss data in academic teaching and open-source software packages.
 
-The opnts project can build on an established network for great outreach and the same time unleashes an entirely new group of publicly available, scientific use grade time series datasets. 
-While the vast majority of the existing, aforementioned KOF time series stem from KOF's own business tendency surveys, the opnts project facilitates research use of additional data stemming from other providers, most notably the Swiss Federal Statistical Office (FSO).
-In addition to such major sources of macroeconomic data, the opnts projects helps to make maintenance of other research use grade time series from smaller, independent providers more sustainable: 
-Community maintainers can use the opnts framework to process datasets from smaller providers with less capacity in transparent fashion that allows to eventually pass on maintenance and share workload among stakeholders.
+The *Open Time Series* project can build on an established network for great outreach and the same time unleashes an entirely new group of publicly available, scientific use grade time series datasets. 
+While the vast majority of the existing, aforementioned KOF time series stem from KOF's own business tendency surveys, the *Open Time Series* project facilitates research use of additional data stemming from other providers, most notably the Swiss Federal Statistical Office (FSO).
+In addition to such major sources of macroeconomic data, the *Open Time Series* projects helps to make maintenance of other research use grade time series from smaller, independent providers more sustainable: 
+Community maintainers can use the *Open Time Series* framework to process datasets from smaller providers with less capacity in transparent fashion that allows to eventually pass on maintenance and share workload among stakeholders.
 This approach allows researchers to publicly archive data and make results reproducible more easily.
 
 

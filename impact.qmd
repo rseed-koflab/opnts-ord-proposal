@@ -17,7 +17,7 @@ It is particularly important to us to not only solve a critical problem in our c
 ## Sustainability in the ETH Domain
 
 To push an ORD approach at KOF which has a leading role in the field of economics in Switzerland and a national mandate to monitor the Swiss economy will help advances ORD practices in empirical economics and official statistics in the long term. 
-The use of the opnts framework in teaching and monitoring work that involves official statistics will help the digital transformation process in official statistics through education of future researchers and public servants who become familiar with Swiss official statistics data and ORD principles alike. 
+The use of the *Open Time Series* framework in teaching and monitoring work that involves official statistics will help the digital transformation process in official statistics through education of future researchers and public servants who become familiar with Swiss official statistics data and ORD principles alike. 
 In addition, our inclusive approach helps to keep the community involved, while the idea of modular software packages with their maintainers allows for the passing on of responsibilities in case of changes in personnel.
 The Comprehensive R Archive Network (CRAN) and the R Project for Statistical Computing have a long tradition at ETH.
 The ETH domain and its staff contributed substantially to the language and its extension packages, including to CRAN itself^[see also https://stat.ethz.ch/CRAN/]. 
@@ -33,7 +33,7 @@ Finally, we help bridge the gap and strengthen the link between public administr
 
 ## Collaboroative Approach
 
-The proposed opnts project is highly collaborative in multiple ways. 
+The proposed *Open Time Series* project is highly collaborative in multiple ways. 
 The technical approach is inclusive and modular. Through open-sourcing and focusing on the core package, we hold ourselves accountable through the community and at the same encourage contribution to the technical core. 
 In our data provider-specific modules, we foster collaboration at the dataset level.
 Through our own dataset modules, we provide examples that collaborators from other fields can use - along with the documentation - as blueprints to build their own extension packages to process data from their respective fields. 
@@ -44,7 +44,7 @@ In the process, we plan to take part in existing academic and non-academic commu
 
 ## FAIR Principles 
 
-The opnts project works to make its output **findable**. 
+The *Open Time Series* project works to make its output **findable**. 
 We combine our own experience with the expertise and reach of our partners to find the right outlets to help us reach multiple communities.
 A high degree of automation allows us to consider and maintain multiple platforms from GitHub to CRAN for our software and from Dryad^[https://datadryad.org/stash] to opendata.swiss and Zenodo^[https://zenodo.org/] for our datasets.  
 In addition, we intend to subject our work to a scientific software review [@review] by the renowned rOpenSci [@ropensci] organization.

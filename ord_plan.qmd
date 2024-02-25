@@ -208,11 +208,11 @@ r <- tbl |>
 
 *The goal of work package 3 (WP3) is to promote usage of the framework and data as well as to encourage others to contribute. 
 In particular we are looking for community contributions such as maintenance of existing datasets, addition of public datasets that have not yet been processed and community activities. 
-At this stage, we will also intensify activities to explore the expansion of *opnts* into different academic fields.*
+At this stage, we will also intensify activities to explore the expansion of **Open Time Series** into different academic fields.*
 
-We plan to approach the above goals in three ways: i) integration of opnts data and software into academic teaching aimed at scientists from different disciplines. ii) presentation of opnts at useR! 2024 in Salzburg, Austria^[useR! is the annual conference of R users. useR! conference usually draw more than 1'000 international users from a large variety of fields. See also https://events.linuxfoundation.org/user/]. iii) participation in local community events iv) hosting of an own event at KOF. 
+We plan to approach the above goals in three ways: i) integration of *Open Time Series* data and software into academic teaching aimed at scientists from different disciplines. ii) presentation of *Open Time Series* at useR! 2024 in Salzburg, Austria^[useR! is the annual conference of R users. useR! conference usually draw more than 1'000 international users from a large variety of fields. See also https://events.linuxfoundation.org/user/]. iii) participation in local community events iv) hosting of an own event at KOF. 
 
-Starting in fall 2024, opnts data and software will be integrated into the Hacking for Science course^[See also: https://ethz.ch/en/the-eth-zurich/education/innovation/kite-award/kite-award-2022/nominierte-projekte-kite-award-2022/hacking-for-social-sciences.html]. 
+Starting in fall 2024, *Open Time Series* data and software will be integrated into the Hacking for Science course^[See also: https://ethz.ch/en/the-eth-zurich/education/innovation/kite-award/kite-award-2022/nominierte-projekte-kite-award-2022/hacking-for-social-sciences.html]. 
 Originally created for ETHZ D-MTEC PhD students, Hacking for Science is a highly interactive online course whose big picture guidance and hands-on software development approach continues to draw interest from students from a variety of fields. 
 The course last iteration welcomed students from more than 10 different ETH departments as well as guests from outside ETH.
 We aim to communicate the value of open data to this broad audience and learn which challenges ORD faces in different fields. 
@@ -221,7 +221,7 @@ In addition our teaching is complemented by the RSEED seminar series started in 
 
 Centered around the submission of opents to useR! 2024, we plan further activity at conferences and community events. 
 At ETH, the Scientific Computing group has recently founded a Research Software Engineering (RSE) group^[The RSE group is already well connected to the global RSE movement, partiuclarly to the Society of Research Software Engineering in the UK. See also https://rse.ethz.ch/] to connect software engineers in science at ETH. 
-Regular RSE events at ETH as well as the vibrant, local open source and opendata community^[see events such as opendata beer, lovedata week] will gives us a chance to present the opnts project, e.g., at the RSE group or the local R user group.
+Regular RSE events at ETH as well as the vibrant, local open source and opendata community^[see events such as opendata beer, lovedata week] will gives us a chance to present the *Open Time Series* project, e.g., at the RSE group or the local R user group.
 KOF hosted useR! in 2021 and is well connected to the R community.
 This history and connections gives a great chance for a successful application to host an existing special interest conference such as *R in Official Statistics* at KOF. Hosting a well-established, smaller special interest conference allows us to give the entire event an ORD focus push ORD excellence in Official Statistics. 
 
@@ -250,7 +250,7 @@ This history and connections gives a great chance for a successful application t
 
  - plan to present and promote UseR in Salzburg...
 
-Finally, opnts will be presented at a number of community events focused on research software engineering (and economic data). Existing community events such as RSE@ETH, RSECON 2024 and the RSEED at KOF meetup series have a large and intersectoral reach. From academia to administration and the private sector, the audience of these events is more diverse than that of a single event. By presenting the opnts project at conferences or events such as these, we introduce opnts to professionals in different fields with different open source needs and ideas for collaboration.
+Finally, *Open Time Series* will be presented at a number of community events focused on research software engineering (and economic data). Existing community events such as RSE@ETH, RSECON 2024 and the RSEED at KOF meetup series have a large and intersectoral reach. From academia to administration and the private sector, the audience of these events is more diverse than that of a single event. By presenting the *Open Time Series* project at conferences or events such as these, we introduce *Open Time Series* to professionals in different fields with different open source needs and ideas for collaboration.
 
 
 
