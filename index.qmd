@@ -96,8 +96,9 @@ Concrete steps could be the integration of FSO experts into teaching or the use 
 
 The opnts project can build on an established network for great outreach and the same time unleashes an entirely new group of publicly available, scientific use grade time series datasets. 
 While the vast majority of the existing, aforementioned KOF time series stem from KOF's own business tendency surveys, the opnts project facilitates research use of additional data stemming from other providers, most notably the Swiss Federal Statistical Office (FSO).
-In addition to its such major sources of macroeconomic data, the opnts projects helps to make maintenance of other research use grade time series from smaller, independent providers more sustainable: 
-Community maintainers can use the opnts framework to process datasets from smaller providers with less capacity in transparent fashion that allows to eventually pass on maintenance and share workload among stakeholders. 
+In addition to such major sources of macroeconomic data, the opnts projects helps to make maintenance of other research use grade time series from smaller, independent providers more sustainable: 
+Community maintainers can use the opnts framework to process datasets from smaller providers with less capacity in transparent fashion that allows to eventually pass on maintenance and share workload among stakeholders.
+This approach allows researchers to publicly archive data and make results reproducible more easily.
 
 
 
