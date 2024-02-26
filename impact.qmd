@@ -54,7 +54,7 @@ In addition, we intend to subject our work to a scientific software review [@rev
 We make our work **accessible**. With the support of ETH Legal Services, we open-source our software and find appropriate open-source and creative common licenses for our software and data. 
 
 We do not compromise when it comes to making our data **interoperable**.
-We build on the World Wide Web Consortium's (W3C) idea of CSV on the Web, setting the tone for interoperability. Like CSVW, our data output splits data and metadata into two files: a data CSV file and a metadata JSON file. While we use standard CSV files for time series to not only allow virtually any programming language to ingest them but also standard office software to read our data. 
+We build on the World Wide Web Consortium's (W3C) idea of CSV on the Web^[see also https://csvw.org/], setting the tone for interoperability. Like CSVW, our data output splits data and metadata into two files: a data CSV file and a metadata JSON file. While we use standard CSV files for time series to not only allow virtually any programming language to ingest them but also standard office software to read our data. 
 Our JavaScript Object Notation (JSON) metadata files extend the basic idea of the W3C. We use a key to refer to data and allow the storage of comprehensive, multilingual meta-information. 
 
 A **reusable** and extendable framework and data pool of macroeconomic time series is a core contribution of the *Open Time Series* project. We do not only provide the data and software as is; we also provide community support on our GitHub page and RSEED chat space. In addition, we use the project as a teaching example and ambassador for the FAIR principles among ETH students. 

@@ -1,7 +1,7 @@
 # Introduction
 
-The below sections first describe the crucial problem that the *Open Time Series* address, continue to explain how our background drives us and how our approach solves the problem. 
-Our background in economic research and time series analysis in particular combined with our experience in regular publication of reliable economic indicators helps us understand both - the perspective of a data consumer and provider. 
+The folllowing sections first describe the crucial problem that the *Open Time Series* address, continue to explain how our background drives us and how our approach solves the problem. 
+Our background in economic research and time series analysis combined with our experience in regular publication of reliable economic indicators helps us understand both - the perspective of a data consumer and provider. 
 
 
 ## Problem Statement
@@ -27,7 +27,7 @@ Time Series analysis continues to play an important role in many strands of mode
 Economic forecasting and its evaluation, studies of shock absorption, and many other econometric modeling exercises ask for data that allow intertemporal comparison. 
 Modern models often use hundreds, or even thousands, of time series. 
 
-Even though machine readability of publicly available data has improved in Switzerland thanks to great efforts led by the Swiss Federal Statistical Office (SFSO), researchers face a publication mindset that is focused on the wider public and hence on the most recent wave of data. 
+Even though machine readability of publicly available data has improved in Switzerland thanks to great efforts led by the Swiss Federal Statistical Office (FSO), researchers face a publication mindset that is focused on the wider public and hence on the most recent wave of data. 
 As a consequence, variable names or features may change over time, and minor errors may simply get corrected on *ad hoc* basis or with the next publication — even in datasets that are already available through an application programming interface. 
 In combination with different degrees of machine readability across different providers of public data, the issues mentioned above can lead to two very heterogeneous situations when it comes to automated data ingestion, particularly for those researchers who need a large amount of data from various providers. 
 Another aspect in which the focus of public data providers differs from academic research is the importance of readily available, so-called real-time vintages. 
@@ -54,10 +54,10 @@ iv) We have an infrastructure-as-code approach and share precise information on 
 
 ### Sustainability through Cooperation: Official Statistics and Public Data {.unnumbered}
 
-At the same time, our commitment to regular publication of data-driven indicators designed for intertemporal comparison and our leading role in the community ensures the sustainability of the **Open Time Series** effort.
-The strong empirical focus of the academic research of the KOF Swiss Economic Institute at ETH provides great synergies with the production of forecasts and indicators, many of which rely on publicly available data provided by federal and regional administrations.
+At the same time, our commitment to regular publication of data-driven indicators designed for intertemporal comparison and our leading role in the community ensures the sustainability of the *Open Time Series* effort.
+The strong empirical focus of the academic research of the KOF Swiss Economic Institute at ETH (KOF) provides great synergies with the production of forecasts and indicators, many of which rely on publicly available data provided by federal and regional administrations.
 
-```{r,echo=FALSE,message=FALSE,warnings=FALSE, eval=TRUE}
+```{r,echo=FALSE,message=FALSE,warning=FALSE, eval=TRUE}
 #| fig-cap: "The KOF Economic Barometer is a forward looking indicator (FLI) for the Swiss economy. It is well received in Switzerland and used as the official FLI for Switzerland by the International Monetary Fund (IMF). source: KOF Swiss Economic Institute, ETH Zurich."
 
 library(kofdata)
@@ -72,7 +72,7 @@ tsplot(tsl,
 In addition to its popular indicators for the Swiss economy, KOF makes a wide array of fine-grained, sector-specific time series publicly available. 
 At the time of composing this ORD proposal, the KOF time series explorer made more than 31'000 time series publicly available in human-browsable and machine-readable fashion alike^[see also https://ts-explorer.kof.ethz.ch].
 This experience with the regular publication of economic data, the production of indicators, economic forecasting and KOF's national mandate to monitor the Swiss economy makes us relate further to the needs and challenges of official statistics.
-Through our steady exchange with key data providers and data consumers such as the Swiss National Bank (SNB), the Swiss Federal Statistical Office (SFSO), the Secretariat of Economic Affairs (SECO), the State Secretariat of Education, Research, and Innovation (SERI) and the cantonal statistical offices, we are aware that other institutions have often cumbersome, semi-automatic data sourcing processes to process publicly available that are highly redundant across institutions.
+Through our steady exchange with key data providers and data consumers such as the Swiss National Bank (SNB), the Swiss Federal Statistical Office (FSO), the Secretariat of Economic Affairs (SECO), the State Secretariat of Education, Research, and Innovation (SERI) and the cantonal statistical offices, we are aware that other institutions have often cumbersome, semi-automatic data sourcing processes to process publicly available that are highly redundant across institutions.
 Hence, not only open-sourcing our implementation but also committing to put in substantial additional effort to make our solution inclusive and transparent to others will impact the community in three sustainable ways: 
 
 ::: callout-note
