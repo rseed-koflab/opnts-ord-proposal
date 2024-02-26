@@ -1,11 +1,11 @@
 ## Abstract {.unnumbered}
 
-Because data publications of public data providers focus on a broader audience, publicly available datasets are often not convenient to use for academic research. 
+Because publications of public data providers focus on a broader audience, their datasets are often not convenient to use for academic research. 
 As a result, data sourcing processes are implemented redundantly across research projects and institutions, often in an only partly automated, possibly error-prone way. 
 The *Open Time Series* project addresses this problem by homegenizing, documenting and open-sourcing KOF's well-tested data sourcing processes of public data as well as the resulting scientific use grade, machine-readable time series datasets. 
 This publication of thousands of machine-readable macroeconomic time series and their metadata has an immediate impact on the economic and real-time analysis research communities.
 In addition, our community approach, the exemplary character and inclusive manner of these reproducible data publications promises to have spillover effects to other communities in the longer run. 
-Our well-established network helps further to make our impact sustainable through the upstream feedback we give to data providers such as the Federal Statistical Office (FSO), the Swiss National Bank (SNB), the Secretariat of Economic Affairs (SECO) and cantonal statistical offices. 
+Our well-established network helps further to make our impact sustainable through the feedback we give to data providers such as the Federal Statistical Office (FSO), the Swiss National Bank (SNB), the Secretariat of Economic Affairs (SECO) and cantonal statistical offices. 
 Finally, the inclusion of the *Open Time Series* framework and datasets into teaching pushes ORD excellence by ensuring that the next generation of public servants is familiar with ORD principles and publicly available Swiss data.
 
 
