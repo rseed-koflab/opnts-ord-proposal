@@ -2,8 +2,8 @@
 # ORD Project Plan
 
 The following sections explain our approach in greater detail. 
-Though working packages can be seen as stages in general, working packages are not strictly sequential as some activities are continuous efforts.
-The subsequent chapter gives an overview that shows responsibilities within the team and intensitvity of activities throughout the project.
+Though working packages can be seen as stages in general, they are not strictly sequential as some activities are continuous efforts.
+This chapter gives an overview that shows responsibilities within the team and intensitvity of activities throughout the project.
 
 ## WP0: Coordination and Planning
 
@@ -40,12 +40,12 @@ r <- tbl |>
 :::
 
 
-*During the starting stage of our project, we coordinate with major public data providers and involve data sources. We will do so to establish and maintain active, lively communication between public data providers and the scientific community.* 
+*During the starting stage of our project, we coordinate with major public data providers and involve data sources. We will do this to establish and maintain active, lively communication between public data providers and the scientific community.* 
 
 <!-- activities & RQs -->
 Publicly available economic data provided by the Federal Statistical Office (FSO), the Secretariat of Economic Affairs (SECO), the Swiss National Bank (SNB), and regional Statistical Offices are important sources for economic research and monitoring of the Swiss economy. To develop an ORD spirit and a community of data providers and scientific users of the data, it is crucial to involve these public institutions early on. Early dialogue helps to avoid redundancies with existing data community initiatives and to develop a common understanding of *open data*, machine readability and datasets of priority. 
 
-One of the core ideas is to leverage existing, general investment into publicly available economic data by integrating public data into academic teaching to strengthen the connection between public administration and academia. To explore how to effectively use the joint expertise of public data providers, domain experts, data stewards of the ETH domain, and data engineers, we will launch a series of monthly meetups early in the process. The meetups are designed to foster inclusive, expert discussions through publicly pre-circulated content. We are working to integrate our meetup series into the academic curriculum at ETH, but we keep the series open to interested participants beyond academia. 
+One core idea is to leverage existing, general investment into publicly available economic data by integrating public data into academic teaching to strengthen the connection between public administration and academia. To explore how to effectively use the joint expertise of public data providers, domain experts, data stewards of the ETH domain, and data engineers, we will launch a series of monthly meetups early in the process. The meetups are designed to foster inclusive, expert discussions through publicly pre-circulated content. We are working to integrate our meetup series into the academic curriculum at ETH, but we keep the series open to interested participants beyond academia. 
 
 
 
@@ -91,28 +91,28 @@ r <- tbl |>
 <!-- communication through the opents project, code as communication channel --> 
 
 *In Work Package 1 (WP1), we lay the technical foundation for turning KOF Swiss Economic Institute's (KOF) existing production process of macroeconomic time series into an open-source framework that creates publicly available, machine-readable, scientific-grade time series in a fully reproducible fashion. 
-Our approach uses open-source software licenses that are free of license costs and aims to publish not only the resulting time series data but also the technical framework and infrastructure setup. Doing so ensures reproducibility and helps to comply with FAIR principles. Thanks to our infrastructure-as-code approach, we can publish information on an ideal runtime environment to help others operate their own instance of the Open Time Series framework.*
+Our approach uses open-source software licenses that are free of license costs and aims to publish not only the resulting time series data but also the technical framework and infrastructure setup. This ensures reproducibility and helps comply with FAIR principles. Thanks to our infrastructure-as-code approach, we can publish information on an ideal runtime environment to help others operate their own instance of the Open Time Series framework.*
 
-Because an active community is inevitable to keep the project sustainable, i.e., well maintained, we chose the R Project for Statistical Computing as our main programming language for the implementation of the framework. R is known for its large and inclusive community with its annual user conferences [@inclusivecon] and vibrant local communities^[@rsebook discusses the importance of communities for the learner, including experience from hosting the useR! Conference 2021 which KOF co-chaired in a dedicated community chapter.] . Alongside its strong regional and international community, the fact that R is open source and free of license costs lowers the barrier to entrance and contribution considerably. In addition, R offers well-established boiler plating ecosystems like *usethis* [@usethis] and documentation frameworks such as *pkgdown* [@pkgdown] or Roxygen [@roxygen2]. 
+Because an active community is crucial to keep the project sustainable, i.e., well maintained, we chose the R Project for Statistical Computing as our main programming language for the implementation of the framework. With its annual user conferences [@inclusivecon] and vibrant local communities^[@rsebook discusses the importance of communities for the learner, including experience from hosting the useR! Conference 2021 which KOF co-chaired.], R is known for its large and inclusive community. Alongside its strong regional and international community, the fact that R is open source and free of license costs lowers the barrier to entrance and contribution considerably. In addition, R offers well-established boiler plating ecosystems like *usethis* [@usethis] and documentation frameworks such as *pkgdown* [@pkgdown] or *Roxygen* [@roxygen2]. 
 
 WP1 focuses on the homogenization of the data ingestion process across datasets and data providers. In the first implementation step, we identify common parts of the ingestion process.
 We bundle these common parts in an R package that forms our core library and fosters reuse of source code. We encourage the community to use our core packages and to contribute by adding further dataset-specific packages. To inspire contributions, we supplement the *Open Time Series* framework's core, based on our long-term experience as consumers of public data, with provider-specific ingestion libraries written in R that cover dataset idiosyncrasies.
 
-![Example of a traditional official data publication of the Swiss GDP. Source: SECO, https://www.seco.admin.ch/seco/en/home/wirtschaftslage---wirtschaftspolitik/Wirtschaftslage/bip-quartalsschaetzungen-/daten.html ](gdp_example.png)
+![Example of a traditional official data publication of the Swiss GDP. Source: SECO, https://www.seco.admin.ch/seco/en/home/wirtschaftslage---wirtschaftspolitik/Wirtschaftslage/bip-quartalsschaetzungen-/daten.html accessed on February 12, 2024.](gdp_example.png)
 
 The above screenshot shows a traditional data publication of an official GDP statistic. 
 Its use of multiple worksheets, empty lines and multi-line headers hampers machine readability.
-Like many regular consumers of the information contained in this spreadsheet, KOF ingests this information immediately after its publication. 
+Like many regular consumers of the information contained in this spreadsheet, KOF sources this information immediately after its publication. 
 
 ![Screenshot of a machine-readable data file, processed by an R-based engine.](longformat.png)
 
-To have a homogeneous, machine-readable representation of the data, we split this information into two files: based on the CSV on the web idea by the World Wide Web Consortium (W3C), we use a long format CSV file for the data and a JSON file for the metadata. 
+To have a homogeneous, machine-readable representation of the data, we split this information into two files: based on the Comma Separated Values (CSV) on the web idea by the World Wide Web Consortium (W3C), we use a long format CSV file for the data and a Javascript Object Notation (JSON) file for the metadata. 
 The metadata file takes advantage of the JSON format's ability to handle nested data to store comprehensive, multilingual meta information. 
-Our collaborative approach with the Secretariat of Economic Affairs (SECO) led to a pioneering pilot publication of machine-readable data on the official SECO website: Machine-readable data is published in a complementary fashion to the traditional GDP publication^[See also: https://www.seco.admin.ch/seco/en/home/wirtschaftslage---wirtschaftspolitik/Wirtschaftslage/bip-quartalsschaetzungen-/daten.html]. 
+Our collaboration with the Secretariat of Economic Affairs led to a pioneering pilot publication of machine-readable data on the official SECO website: Machine-readable data is published as a complement to the traditional GDP publication^[See also: https://www.seco.admin.ch/seco/en/home/wirtschaftslage---wirtschaftspolitik/Wirtschaftslage/bip-quartalsschaetzungen-/daten.html, accessed February 12, 2024.]. 
 
 ![Excerpt of the corresponding metadata file in JSON format.](metadata.png)
 
-At the end of WP1, we plan to iterate over the resulting datasets and data descriptions and enhance meta information where necessary. We do so in a reproducible and transparent fashion by adding all changes to the source code that produces the data and metadata files.
+At the end of WP1, we plan to iterate over the resulting datasets and data descriptions and enhance meta information where necessary. We will do this in a reproducible and transparent way by adding all changes to the source code that produces the data and metadata files.
 
 ## WP2: Publication
 
@@ -158,15 +158,15 @@ r <- tbl |>
 :::
 
 
-*The goal of Work Package 2 (WP2) is to find the platforms that suit our community, data and code components best and facilitate our approach to ORD. We will involve our data consumers and collaborators into this decision-making process. Based on our open by default thinking, we will publish not only the resulting time series data and meta information, but all components of our software framework. In the process, we will work together with the ETH legal service to find the most suitable open source licensing solution^[see https://choosealicense.com/] for all components of the opents project.*
+*The goal of Work Package 2 (WP2) is to find the platforms that suit our community, data and code components best and facilitate our approach to ORD. We will involve our data consumers and collaborators into this decision-making process. Based on our open by default thinking, we will publish not only the resulting time series data and meta information, but all components of our software framework. In the process, we will work together with the ETH legal service to find the most suitable open source licensing solution^[see https://choosealicense.com/, accessed on February 12, 2024.] for all components of the opents project.*
 
-The *Open Time Series* project's approach, suggested here, splits data and meta information into two separate text files and formats: a simple CSV spreadsheet and a nested JSON file for multilingual data description. Having two simple text files per dataset allows us to disseminate the resulting time series data on free, standard infrastructure such as GitHub, which is well established in the open-source community. The state-of-the-art rendering of CSV spreadsheets on modern git platforms sets the barrier to exploring and consuming our scientific use time series datasets as low as possible. Hence, the publication of data on GitHub, possibly using git's Large File Storage (LFS) extension, forms our baseline scenario. Yet, in WP2, we explore the feasibility of other, complementary, regional and international publication channels such as opendata.swiss^[https://opendata.swiss], r-universe or Zenodo.
+The *Open Time Series* project approach we suggest, splits data and meta information into two separate text files and formats: a simple CSV spreadsheet and a nested JSON file for multilingual data description. Having two simple text files per dataset allows us to disseminate the resulting time series data on free, standard infrastructure such as GitHub, which is well established in the open-source community. The state-of-the-art rendering of CSV spreadsheets on modern Git platforms sets the barrier to exploring and consuming our scientific use time series datasets as low as possible. Hence, the publication of data on GitHub, possibly using git's Large File Storage (LFS) extension, forms our baseline scenario. Yet, in WP2, we will explore the feasibility of other, complementary, regional and international publication channels such as opendata.swiss^[https://opendata.swiss, accessed on February 12, 2024.], r-universe or Zenodo.
 
-Technically, the *Open Time Series* framework consists of a core R package and several data provider-specific ingestion packages. Again, we see the publication of all these components as open-source libraries on GitHub (or another major Git platform with good visibility) as the baseline form of publication. In addition, WP2 explores which of our components are suitable for publication on the Comprehensive R Archive Network (CRAN). Publication on CRAN comes with requirements and quality control but opens up our work to a larger audience as endusers face the lowest possible hurdle to installing our packages. 
+Technically, the *Open Time Series* framework consists of a core R package and several data provider-specific ingestion packages. Again, we see the publication of all these components as open-source libraries on GitHub (or another major Git platform with good visibility) as the baseline form of publication. In addition, WP2 explores which of our components are suitable for publication on the Comprehensive R Archive Network (CRAN). Publication on CRAN comes with requirements and quality control but opens up our work to a larger audience so that endusers face the lowest possible hurdle to installing our packages. 
 
-![Download of R packages from CRAN is very convenient in all major R environments. The screenshot shows an example of RStudio's graphical user interface for searching and downloading packages.](install.png)
+![Download of R packages from CRAN is very convenient in all major R environments. The screenshot above shows an example of RStudio's graphical user interface for searching and downloading packages.](install.png)
 
-We will also explore more recent and experimental approaches, such as *r-universe* which helps to improve our reach in the data science community. In WP2, we aim to expose our work to an *rOpenSci* peer review. *rOpenSci* shares our values of open and reproducible research through reuse and helps us reach ORD excellence. 
+We will also explore more recent and experimental approaches, such as *r-universe* which helps to improve our reach in the data science community. In WP2, we aim to submit our work to an *rOpenSci* [@review] peer review. *rOpenSci* shares our values of open and reproducible research through reuse and helps us reach ORD excellence. 
 
 
 ## WP3: Facilitate Usage and Applications 
@@ -207,21 +207,21 @@ r <- tbl |>
 :::
 
 *The goal of work package 3 (WP3) is to promote usage of the framework and data as well as to encourage others to contribute. 
-In particular we are looking for community contributions such as maintenance of existing datasets, addition of public datasets that have not yet been processed and community activities. 
-At this stage, we will also intensify activities to explore the expansion of Open Time Series into different academic fields.*
+In particular we are looking for community contributions such as maintenance of existing datasets, addition of public datasets that have not been processed yet and community activities. 
+At this stage, we will also intensify activities to explore the expansion of Open Time Series into other academic fields.*
 
-We plan to approach the above goals in three ways: i) integration of *Open Time Series* data and software into academic teaching aimed at scientists from different disciplines. ii) presentation of *Open Time Series* at useR! 2024 in Salzburg, Austria^[useR! is the annual conference of R users. useR! conference usually draw more than 1'000 international users from a large variety of fields. See also https://events.linuxfoundation.org/user/]. iii) participation in local community events iv) hosting of an own event at KOF. 
+We plan to reach the above goals in three ways: i) integration of *Open Time Series* data and software into academic teaching aimed at scientists from different disciplines. ii) presentation of *Open Time Series* at useR! 2024 in Salzburg, Austria^[useR! is the annual conference of R users. In 2024, it takes place from July 7-11. useR! conferences usually draw more than 1'000 international users from a large variety of fields. See also https://events.linuxfoundation.org/user/ accessed on February 12, 2024.]. iii) participation in local community events iv) hosting of an own event at KOF. 
 
-Starting in fall 2024, *Open Time Series* data and software will be integrated into the Hacking for Science course^[See also: the course announcement blog post: https://rseed.ch/posts/h4sci/ and course Kite award nomination: https://ethz.ch/en/the-eth-zurich/education/innovation/kite-award/kite-award-2022/nominierte-projekte-kite-award-2022/hacking-for-social-sciences.html]. 
-Originally created for ETHZ D-MTEC PhD students, Hacking for Science is a highly interactive online course whose big picture guidance and hands-on software development approach continues to draw interest from students from a variety of fields. 
-The course last iteration welcomed students from more than 10 different ETH departments as well as guests from outside ETH.
+Starting in fall 2024, *Open Time Series* data and software will be integrated into the Hacking for Science course^[See also: the course announcement blog post: https://rseed.ch/posts/h4sci/ and course Kite award nomination: https://ethz.ch/en/the-eth-zurich/education/innovation/kite-award/kite-award-2022/nominierte-projekte-kite-award-2022/hacking-for-social-sciences.html accessed on February 12, 2024.] given at ETH. 
+Originally created for ETHZ D-MTEC PhD students, Hacking for Science is a highly interactive online course whose big picture guidance and hands-on software development approach attracts students from a great variety of fields. 
+The course's last iteration welcomed students from more than 10 different ETH departments as well as guests from outside ETH.
 We aim to communicate the value of open data to this broad audience and learn which challenges ORD faces in different fields. 
 Currently, we also explore the possibility of running Hacking for Research Assistants – a satellite event for research assistants.
-In addition our teaching is complemented by the RSEED seminar series started in early 2024 which gives us an additional channel to promote an ORD mindset.
+In addition our teaching is complemented by the Research Software Engineering and Economic Data (RSEED) workshop series started in early 2024 which gives us an additional channel to promote an ORD mindset.
 
-Centered around the submission of opents to useR! 2024, we plan further activity at conferences and community events. 
-At ETH, the Scientific Computing group has recently founded a Research Software Engineering (RSE) group^[The RSE group is already well connected to the global RSE movement, partiuclarly to the Society of Research Software Engineering in the UK. See also https://rse.ethz.ch/] to connect software engineers in science at ETH. 
-Regular RSE events at ETH as well as the vibrant, local open source and opendata community^[see events such as opendata beer, lovedata week] will gives us a chance to present the *Open Time Series* project, e.g., at the RSE group or the local R user group.
+Starting with the submission of *Open Time Series* to useR! 2024, we plan further activity at conferences and community events. 
+At ETH, the Scientific Computing group has recently founded a Research Software Engineering (RSE) group^[The RSE group is already well connected to the global RSE movement, partiuclarly to the Society of Research Software Engineering in the UK. See also https://rse.ethz.ch/ accessed on February 12, 2024.] to connect software engineers in science at ETH. 
+Regular RSE events at ETH as well as the vibrant, local open source and opendata community^[see events such as opendata beer, lovedata week] will give us a chance to present the *Open Time Series* project, e.g., at the RSE group or the local R user group.
 KOF hosted useR! in 2021 and is well connected to the R community.
-This history and connections gives a great chance for a successful application to host an existing special interest conference such as *R in Official Statistics* at KOF. Hosting a well-established, smaller special interest conference allows us to give the entire event an ORD focus push ORD excellence in Official Statistics. 
+This history and connections give a great chance to successfully apply for hosting an existing special interest conference such as *R in Official Statistics* at KOF. Hosting a well-established, smaller special interest conference allows us to give the entire event an ORD focus promote ORD thinking in official statistics. 
 
