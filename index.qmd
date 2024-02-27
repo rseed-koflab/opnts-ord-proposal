@@ -5,7 +5,7 @@ As a result, data sourcing processes are implemented redundantly across research
 The *Open Time Series* project addresses this problem by publishing fully reproducible routines to create time series from publicly available data. Doing so yields valuable results:
 First, the publication of thousands of well-tested, machine-readable time series and their metadata will reduce the data sourcing burden and improve data quality within the time series analysis and economic research communities that use Swiss data.
 Second, the community approach we employ, the exemplary character and the inclusive approach of our open source software promise to have spillover effects to other research communities in the longer run. 
-The KOF Swiss Economic Institute's network leverages the impact of our project through exchange on our learnings with data providers such as the Federal Statistical Office (FSO), the Swiss National Bank (SNB), the Swiss Secretariat of Economic Affairs (SECO) and cantonal statistical offices. 
+The network of the Swiss Economic Institute (KOF) leverages the impact of our project through exchange on our learnings with data providers such as the Federal Statistical Office (FSO), the Swiss National Bank (SNB), the Swiss Secretariat of Economic Affairs (SECO) and cantonal statistical offices. 
 Finally, the inclusion of the *Open Time Series* framework and datasets into teaching advances Open Research Data (ORD) excellence by ensuring that the next generation of public servants is familiar with ORD principles and publicly available Swiss data.
 
 
