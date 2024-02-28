@@ -13,7 +13,6 @@ Traditional data publications are often unsuitable^[See Working Package 1 of the
 Particularly, researchers who source a large amount of time series data from different providers are impacted by the substantial difference in the pace of the digital transformation across providers or the differences that exist even between departments of the same providers. 
  
 Though application programming interfaces (APIs) from the official providers have led to great improvements in the machine readability of public data, machine readability is not homogenous across datasets.
-The *Open Time Series* project bridges the described gap between official statistics and academic econommic research in Switzerland. 
 The proposed project mitigates the machine readability issue by not only publishing time series data created from a fully transparent process, but also by providing an open technical processing framework. Our framework eases the data sourcing and quality control burden and, at the same time, encourages researchers to contribute time series datasets of their own. In addition, the *Open Time Series* project establishes a steady and hands-on exchange between regional and federal data providers and the community of academic users of public data.
 
 
@@ -55,10 +54,11 @@ iv) We have an infrastructure-as-code approach and share precise information on 
 
 :::
 
-### Sustainability through Cooperation: Official Statistics and Public Data {.unnumbered}
+### Official Statistics and Public Data {.unnumbered}
 
 Our commitment to regular publication of data-driven indicators designed for intertemporal comparison and our leading role in the community ensure the sustainability of the *Open Time Series* project.
 The strong empirical focus of the academic research at the KOF Swiss Economic Institute (KOF) provides great synergies with the production of forecasts and indicators, many of which rely on publicly available data provided by Swiss federal and regional administrations.
+The *Open Time Series* project bridges the described gap between official statistics and academic economic research and strenghtens the connections between these communities in Switzerland. 
 
 ```{r,echo=FALSE,message=FALSE,warning=FALSE, eval=TRUE}
 #| fig-cap: "The KOF Economic Barometer is a forward-looking indicator (FLI) for the Swiss economy. It is well accepted in Switzerland and used as the official FLI for Switzerland by the International Monetary Fund (IMF). source: KOF Swiss Economic Institute, ETH Zurich."
