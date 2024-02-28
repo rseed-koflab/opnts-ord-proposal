@@ -12,7 +12,6 @@ book:
     - ord_plan.qmd
     - impact.qmd
     - overview.qmd
-    - resources.qmd
     - references.qmd
 
 bibliography: references.bib

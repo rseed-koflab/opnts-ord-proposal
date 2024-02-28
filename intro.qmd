@@ -57,7 +57,7 @@ iv) We have an infrastructure-as-code approach and share precise information on 
 ### Official Statistics and Public Data {.unnumbered}
 
 Our commitment to regular publication of data-driven indicators designed for intertemporal comparison and our leading role in the community ensure the sustainability of the *Open Time Series* project.
-The strong empirical focus of the academic research at the KOF Swiss Economic Institute (KOF) provides great synergies with the production of forecasts and indicators, many of which rely on publicly available data provided by Swiss federal and regional administrations.
+The strong empirical focus of the academic research at the KOF Swiss Economic Institute provides great synergies with the production of forecasts and indicators, many of which rely on publicly available data provided by Swiss federal and regional administrations.
 The *Open Time Series* project bridges the described gap between official statistics and academic economic research and strenghtens the connections between these communities in Switzerland. 
 
 ```{r,echo=FALSE,message=FALSE,warning=FALSE, eval=TRUE}
