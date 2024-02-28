@@ -19,9 +19,10 @@ The proposed project mitigates the machine readability issue by not only publish
 
 ## Background and Motivation
 
-Although we aim at extending the approach suggested in this proposal to other fields in the future, this *Explore* proposal focuses on our 'home court' disciplines of public statistics and empirical economics.
+Although we aim at extending the approach suggested in this proposal to other fields in the future, this *Explore* proposal focuses on our 'home court' disciplines of public statistics and empirical economics. Also, our works touches all explore aims our main goal is to *Build Communities to engage in ORD practices* and to *Prototype ORD tools*.
 We are confident that our strong network in both fields will leverage our initial push sufficiently to give the impact of the *Open Time Series* project a great chance to spill over to other communities. 
 The following sections introduce our background and explain how the proposed project helps the economics, forecasting and open data communities. 
+
 
 ### Time Series Analysis, Forecasting and Data Science in Economics {.unnumbered}
 
